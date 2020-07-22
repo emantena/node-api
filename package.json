@@ -1,0 +1,32 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "api": "server.js"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcrypt": "^5.0.0",
+    "body-parse": "^0.1.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.25"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./bin/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emantena/node-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emantena/node-api/issues"
+  },
+  "homepage": "https://github.com/emantena/node-api#readme"
+}
