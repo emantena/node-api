@@ -55,11 +55,7 @@ exports.changePassword = async (req, userId) => {
     user.password = await bcrypt.hash(req.newPassword, 10);
 
     let result = await User.update(user);
-    // let filter = { _id: userId };
-    // let update = { password: req.newPassword };
-
-    // await User.findOneAndUpdate(filter, update);
-
+    
     return response = {
         success: true,
     }
